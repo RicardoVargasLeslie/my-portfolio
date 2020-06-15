@@ -6,6 +6,13 @@
   line-height:24px;
   color:#737373;
 }
+p.text-justify{
+
+  text-align: justify;
+
+
+
+}
 .site-footer hr
 {
   border-top-color:#bbb;
@@ -68,7 +75,8 @@
   border-radius:100%;
   background-color:#33353d
 }
-.copyright-text
+.copyright-
+
 {
   margin:0
 }
