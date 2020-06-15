@@ -1,6 +1,6 @@
 import React from 'react'
 import './MeCard.css'
-import avatar from '../../../assets/images/avatar2.png'
+import avatar from '../../../assets/images/117-ironman.png'
 import Avatar from '../Avatar/Avatar'
 
 const Card = () => {

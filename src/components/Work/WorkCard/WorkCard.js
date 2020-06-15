@@ -1,6 +1,6 @@
 import React from 'react'
 import './WorkCard.css'
-import avatar from '../../../assets/images/avatar2.png'
+import avatar from '../../../assets/images/back2.jpg'
 
 const WorkCard = () => {
     return (
