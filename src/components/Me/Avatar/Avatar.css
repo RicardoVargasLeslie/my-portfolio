@@ -19,7 +19,7 @@ Avatar item circle
 
 
 .button1 {
-  background-color: #9f9fa2;
+  background-color: #e0e0e0;
   border: none;
   color:white;
   padding: 16px 32px;
@@ -33,7 +33,8 @@ Avatar item circle
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  border-radius: 8px;
+  border-radius: 0.5rem;
+  
 }
 
 .button1 {
@@ -42,7 +43,7 @@ Avatar item circle
 }
 
 .button1:hover {
-  background-color: #79787c;
+  background-color: #7d7d7d;
   
 }
 
@@ -50,13 +51,19 @@ Avatar item circle
 Avatar img
 */
 .rp-img-1 {
-  background-image: url(../../../assets/images/captura.png);
+  background-image: url(../../../assets/images/thumbnail.gif);
   margin-right: auto;
   margin-left: auto;
   margin-top: auto;
   padding: 0px;
   font-size: 1.5 rem;
   margin-top: -15%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+ 
 }
 
 /*
