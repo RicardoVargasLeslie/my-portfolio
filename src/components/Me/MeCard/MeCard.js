@@ -14,16 +14,11 @@ const Card = () => {
                         </div>
                         <div class="flip-card-back">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut
-                                sed do eiusmod tempor incididunt ut
-                                sed do eiusmod tempor incididunt ut
-                                sed do eiusmod tempor incididunt ut
-                                sed do eiusmod tempor incididunt ut
+                            I'm a certified <strong>SysAdmin & Junior software developer</strong>, passionate about technology seeking
+                            to learn the skills necessary to perform the job in the best possible way, and thereby develop as
+                            a professional in the sector adding value to the work done.
+                            I've worked on several with over <strong>1300 Java clases and several decoupled services, over different disengage maven modules</strong> with 
+                            a strongly defined <strong>design patterns</strong>.
                                 <Avatar></Avatar>
                             </p>
                            
