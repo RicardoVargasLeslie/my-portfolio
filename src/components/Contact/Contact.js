@@ -1,11 +1,13 @@
 import React from 'react'
 import ContactCard from "./ContactCard/ContactCard/ContactCard"
-import './Contact.css'
+import "./Contact.css"
 
-export const Contact = () => {
+
+ const Contact = () => {
     return (
-        <div>
+        <div className="contact">
           <ContactCard></ContactCard>
         </div>
     )
 }
+export default Contact

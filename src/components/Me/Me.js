@@ -3,7 +3,6 @@ import './Me.css'
 import MeCard from "./MeCard/MeCard";
 
 
-
 const Me = () => {
     return (
         <div id="me">
@@ -11,5 +10,4 @@ const Me = () => {
         </div>
     )
 }
-
 export default Me

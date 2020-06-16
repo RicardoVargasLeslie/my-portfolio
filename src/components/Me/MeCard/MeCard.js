@@ -1,9 +1,9 @@
 import React from 'react'
-import './MeCard.css'
 import avatar from '../../../assets/images/117-ironman.png'
 import Avatar from '../Avatar/Avatar'
+import "./MeCard.css"
 
-const Card = () => {
+const MeCard = () => {
     return (
         <div id="main">
             <div id="card">
@@ -31,4 +31,4 @@ const Card = () => {
     )
 }
 
-export default Card
+export default MeCard

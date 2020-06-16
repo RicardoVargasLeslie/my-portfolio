@@ -2,6 +2,7 @@ import React from 'react'
 import './WorkCard.css'
 import avatar from '../../../assets/images/back2.jpg'
 
+
 const WorkCard = () => {
     return (
         <div id="main">

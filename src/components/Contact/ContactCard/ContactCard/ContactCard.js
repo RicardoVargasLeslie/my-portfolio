@@ -1,7 +1,7 @@
 import React from 'react'
-import './ContactCard.css'
-import Social from "../ContactCard/ContactCard"
-import avatar from './../../../../assets/images/avatar2.png'
+
+import avatar from './../../../../assets/images/contact.jpg'
+import "./ContactCard.css"
 
 
 const ContactCard = () => {
@@ -11,7 +11,7 @@ const ContactCard = () => {
                 <div class="flip-card-container">
                     <div class="flip-card">
                         <div class="flip-card-front">
-                            <img src={avatar} alt="Rick" />
+                            <img src={avatar} alt="Contact" />
                         </div>
                         <div class="flip-card-back">
                             <p>

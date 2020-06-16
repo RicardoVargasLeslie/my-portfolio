@@ -6,7 +6,7 @@ import Content from "../components/Containers/Content/Content"
 const index = props => {
   return (
 
-    <div id index="index">
+    <div>
       <LayoutWrapper >
        
       <Content></Content>

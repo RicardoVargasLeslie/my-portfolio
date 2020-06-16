@@ -1,7 +1,9 @@
 import React from 'react'
 import './Content.css'
 import Me from "../../Me/Me"
-import Work from "../..//Work/Work"
+import Work from "../../Work/Work"
+import Contact from "../../Contact/Contact"
+import "./Content.css"
 
 
 
@@ -11,7 +13,7 @@ const Content = () => {
 
             <Me></Me>
             <Work></Work>
-          
+           
 
         </div>
     )
