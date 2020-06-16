@@ -10,6 +10,7 @@ function Avatar() {
                     <div class="rp-item rp-img-1">
                         <div class="rp-info">
                             <h3> I'm Ricki</h3>
+                            <button className="button1">hire me</button>
                         </div>
                     </div>
                 </li>
