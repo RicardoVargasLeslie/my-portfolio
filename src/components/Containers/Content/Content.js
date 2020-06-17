@@ -4,24 +4,25 @@ import Me from "../../Me/Me"
 import Work from "../../Work/Work"
 import Contact from "../../Contact/Contact"
 import "./Content.css"
-import  Generico from "../../Generico/Generico"
-import contactAvatar from '../../../assets/images/back2.jpg'
+import  Card from "../../Shared/Card"
+import contactAvatar from '../../../assets/images/avatar2.png'
 import meAvatar from '../../../assets/images/117-ironman.png'
-import workAvatar from '../../../assets/images/contact.jpg'
+import workAvatar from '../../../assets/images/avatar2.png'
 
 
 const Content = () => {
 
+
     return (
         <div id="content">
             <Me>
-                <Generico img={meAvatar}></Generico>
+                <Card img={meAvatar}></Card>
             </Me>
             <Work>
-            <Generico img={workAvatar}></Generico>
+            <Card img={workAvatar}></Card>
             </Work>
             <Contact>
-            <Generico img={contactAvatar}></Generico>
+            <Card img={contactAvatar}></Card>
             </Contact>
 
 

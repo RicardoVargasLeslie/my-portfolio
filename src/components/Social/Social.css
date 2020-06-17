@@ -37,6 +37,7 @@
   margin-top: -50%;
   margin-left: -50%;
   transition: all 400ms;
+
 }
 .social-networks a:after {
   position: relative;
@@ -46,22 +47,25 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  color: #fff;
+  color: #F4DD08;
   font-size: 26px;
   line-height: 66px;
 }
 .social-networks a:hover,
 .social-networks a:focus {
   text-decoration: none;
+ 
 }
 .social-networks.spin-icon a:hover:after,
 .social-networks.spin-icon a:focus:after {
   transition: transform 0.4s ease-out;
   transform: rotateZ(360deg);
+  color: white;
 }
 .social-networks.square a:hover:before,
 .social-networks.square a:focus:before {
   border-radius: 30;
+  
 }
 .social-networks.bounce a:hover,
 .social-networks.bounce a:focus {
@@ -91,6 +95,7 @@
 .social-networks .icon-github:hover:before,
 .social-networks .icon-github:focus:before {
   background: #000000;
+  color: white;
   border-radius: 100%;
 }
 

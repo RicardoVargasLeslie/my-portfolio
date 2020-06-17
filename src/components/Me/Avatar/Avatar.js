@@ -6,7 +6,7 @@ function Avatar(props) {
     //Destructing props
 
     return (
-        <div>
+        <div className="container">
             <ul class="rp-grid">
                 <li>
                     <div class="rp-item rp-img-1">

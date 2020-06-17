@@ -1,14 +1,12 @@
 import React from 'react'
-import ContactCard from "./ContactCard/ContactCard/ContactCard"
-import "./Contact.css"
-import Social from "./ContactCard/Social/Social"
+import './Contact.css'
+import Social from '../Social/Social'
 
 
 const Contact = ({ children }) => {
   return (
     <div className="contact">
       {children}
-      <Social />
     </div>
   )
 }

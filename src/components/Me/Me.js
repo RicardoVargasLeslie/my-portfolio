@@ -1,6 +1,6 @@
 import React from 'react'
 import './Me.css'
-import Avatar from "./Avatar/Avatar"
+import Avatar from './Avatar/Avatar'
 
 const Me = ({ children }) => {
 
@@ -12,7 +12,7 @@ const Me = ({ children }) => {
     return (
         <div id="me">
             {children}
-            <Avatar avatarInfo={avatarInfo} ></Avatar>
+            <Avatar avatarInfo={avatarInfo}></Avatar>
         </div>
     )
 }

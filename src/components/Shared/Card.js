@@ -1,22 +1,21 @@
 import React from 'react'
-import './WorkCard.css'
-import avatar from '../../../assets/images/back2.jpg'
+import './Card.css'
+const Card = (props) => {
 
-
-const WorkCard = () => {
     return (
         <div id="main">
             <div id="card">
                 <div class="flip-card-container">
                     <div class="flip-card">
                         <div class="flip-card-front">
-                        <img src={avatar} alt="Rick" />
+                        <img src={(props.img)}/>
                         </div>
                         <div class="flip-card-back">
                             <p>
-                               WORK CARD
+                           Generico
+                         
                             </p>
-                           
+                         
                         </div>
 
                     </div>
@@ -24,6 +23,11 @@ const WorkCard = () => {
             </div>
         </div>
     )
-}
 
-export default WorkCard
+   
+    
+    }
+      
+
+
+export default Card
