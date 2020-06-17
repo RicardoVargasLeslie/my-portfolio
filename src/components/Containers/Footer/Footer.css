@@ -3,9 +3,14 @@
 {
   background-color:#424242;
   padding:10px;
+  margin:auto;
   font-size:15px;
   line-height:24px;
   color:#424242;
+  width: auto;
+  height: auto;
+  border-radius: 0.5rem;
+ 
 }
 
 .container{
