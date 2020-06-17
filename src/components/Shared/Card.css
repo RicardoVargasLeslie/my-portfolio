@@ -6,10 +6,7 @@
   box-sizing: border-box;
 }
 
-#main {
-  /* border: 3px solid rgb(251, 255, 0); */
- 
-}
+
 
 .flip-card-container {
   width: 300px;
@@ -20,6 +17,8 @@
   margin: auto;
   padding: 10px;
   display: flex;
+
+ 
  
 }
 .flip-card {
@@ -29,6 +28,7 @@
   transition: transform 1s;
   transform-style: preserve-3d;
   font-family: 'Roboto', sans-serif;
+  
 
 }
 .flip-card-container:hover .flip-card {
@@ -45,6 +45,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .flip-card-back {
@@ -72,7 +73,3 @@
   /* border: 3px solid rgb(49, 9, 158); */
 }
 
-flip-card-back avatar {
-  /* border: 3px solid rgb(153, 11, 153); */
-  margin-top: -10%;
-}
