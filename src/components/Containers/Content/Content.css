@@ -2,13 +2,11 @@
 
  border: 3px solid rgb(76, 0, 255);
 
- margin-left: auto;
-
-
+ margin-left: 20%;
+ margin-right: auto;
  height: fit-content;
  width: fit-content;
  
-
 }
 
 * {
