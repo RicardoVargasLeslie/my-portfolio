@@ -12,6 +12,13 @@
   background-color: #424242;
 }
 
+* {
+  align-items: baseline;
+  vertical-align: baseline;
+  align-self: baseline;
+    
+  }
+
 
 @media only screen and (max-width: 767px) {
   body {

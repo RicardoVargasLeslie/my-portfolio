@@ -1,3 +1,13 @@
-#me {
+* {
+   
+    align-items: baseline;
+    vertical-align: baseline;
+    align-self: baseline;
+   
+}
+
+#me{
+
+    border: 3px solid rgb(128, 230, 69);
     display: inline-block;
 }

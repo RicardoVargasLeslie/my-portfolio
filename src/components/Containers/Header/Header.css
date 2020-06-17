@@ -4,13 +4,21 @@
   background-color:#ffc107;
   padding:10px;
   line-height:24px;
-  color:#424242;
   text-align: center;
   border: 3px solid rgb(238, 0, 238);
-  border-radius: 0.5rem;
-  height: 50%; 
-  width: 100%;
+  height: auto; 
+  width: auto;
+
+
 }
+
+* {
+  
+  align-items: baseline;
+  vertical-align: baseline;
+  align-self: baseline;
+    
+  }
 
 .contaimer{
 
