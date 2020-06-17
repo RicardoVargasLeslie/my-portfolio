@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .site-footer
 {
-  background-color:#403F45;
+  background-color:#424242;
   padding:10px;
   font-size:15px;
   line-height:24px;
-  color:#79787c;
+  color:#424242;
 }
 
 .container{
@@ -44,7 +44,7 @@
 }
 .site-footer a:hover
 {
-  color:#F4DD08;
+  color:#ffc107;
   text-decoration:none;
 }
 .footer-links

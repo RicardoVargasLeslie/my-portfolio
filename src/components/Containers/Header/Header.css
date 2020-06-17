@@ -1,3 +1,40 @@
-#header {
-  /* border: 3px solid rgb(238, 2, 206); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.site-header
+{
+  background-color:#ffc107;
+  padding:10px;
+  font-size:15px;
+  line-height:24px;
+  color:#424242;
 }
+
+.contaimer{
+
+  padding:10px;
+}
+
+.title{
+
+  color:#424242;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  font-family: 'Roboto', sans-serif;
+  padding-left:10px;
+
+}
+
+.subtitle{
+
+
+}
+
+ .disclaimer{
+
+
+ }
+
+ .scroll-down{
+
+
+ }
