@@ -1,13 +1,12 @@
 import React from 'react'
 import './Content.css'
-import Me from "../../Me/Me"
-import Work from "../../Work/Work"
+import Me from '../../Me/Me'
+import Work from '../../Work/Work'
 import Contact from "../../Contact/Contact"
-import "./Content.css"
-import  Card from "../../Shared/Card"
+import  Card from '../../Shared/Card'
 import contactAvatar from '../../../assets/images/avatar2.png'
 import meAvatar from '../../../assets/images/117-ironman.png'
-import workAvatar from '../../../assets/images/avatar2.png'
+import workAvatar from '../../../assets/images/avatar3.png'
 
 
 const Content = () => {
