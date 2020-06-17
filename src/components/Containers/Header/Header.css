@@ -3,13 +3,12 @@
 {
   background-color:#ffc107;
   padding:10px;
-  font-size:15px;
   line-height:24px;
   color:#424242;
   text-align: center;
   border: 3px solid rgb(238, 0, 238);
   border-radius: 0.5rem;
-
+  height: 50%; 
 }
 
 .contaimer{
@@ -20,7 +19,7 @@
 .title{
 
   color:#424242;
-  font-size:16px;
+  font-size:20px;
   text-transform:uppercase;
   margin-top:5px;
   font-family: 'Roboto', sans-serif;
@@ -31,13 +30,15 @@
 }
 
 .subtitle{
-
+  font-size:15px;
+  font-family: 'Roboto', sans-serif;
 
 }
 
  .disclaimer{
 
-
+  font-size:10px;
+  font-family: 'Roboto', sans-serif;
  }
 
  .scroll-down{

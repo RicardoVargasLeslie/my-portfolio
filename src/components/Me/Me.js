@@ -12,7 +12,7 @@ const Me = ({ children }) => {
     return (
         <div id="me">
             {children}
-            <Avatar avatarInfo={avatarInfo}></Avatar>
+         
         </div>
     )
 }
