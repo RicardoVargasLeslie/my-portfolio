@@ -1,16 +1,18 @@
 import React from 'react'
 import './Avatar.css'
 
-function Avatar() {
+function Avatar(props) {
+
+    //Destructing props
+
     return (
         <div>
-
             <ul class="rp-grid">
                 <li>
                     <div class="rp-item rp-img-1">
                         <div class="rp-info">
-                            <h3> I'm Ricki</h3>
-                            <button className="button1">hire me</button>
+                            <h3>{props.avatarInfo.title}</h3>
+                            <button className="button1">{props.avatarInfo.buttonText}</button>
                         </div>
                     </div>
                 </li>

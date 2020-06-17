@@ -1,12 +1,18 @@
 import React from 'react'
 import './Me.css'
-import MeCard from "./MeCard/MeCard";
+import Avatar from "./Avatar/Avatar"
 
+const Me = ({ children }) => {
 
-const Me = () => {
+    const avatarInfo = {
+        title: "Im Ricki",
+        buttonText: "hire me"
+    }
+
     return (
         <div id="me">
-            <MeCard />
+            {children}
+            <Avatar avatarInfo={avatarInfo} ></Avatar>
         </div>
     )
 }

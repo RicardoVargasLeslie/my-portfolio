@@ -3,10 +3,10 @@ import './Work.css'
 import WorkCard from "./WorkCard/WorkCard"
 
 
-const Work = () => {
+const Work = ({ children }) => {
     return (
         <div id="work">
-            <WorkCard></WorkCard>
+            {children}
         </div>
     )
 }
