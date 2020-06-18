@@ -1,64 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
-.site-header
-{
-  background-color:#ffc107;
-  padding:10px;
-  line-height:24px;
+.site-header {
+  background-color: #ffc107;
+  padding: 10px;
+  line-height: 24px;
   text-align: center;
   width: auto;
   height: 60%;
-  padding:10px;
+  padding: 10px;
 }
 
 * {
-  
   align-items: baseline;
   vertical-align: baseline;
   align-self: baseline;
-    
-  }
-
-#parent {
-  height: 40px;
-  white-space: nowrap;
-  overflow: hidden; 
-  font-size: 28px;
-  color: #424242;
-  position: relative;
-  text-align: center;
-  padding:10px;
-  margin-left:50%;
-  margin-top: 20%;
-  font-family: 'Roboto', sans-serif;
 }
 
-#border {
-  border-bottom: solid 3px rgba(0,255,0,.75);
-  position: absolute;
-  right: -7px;
-  width: 20px;
+.animation {
+  border-right: solid 3px #79787c;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #424242;
 }
 
 /* Animation */
-#parent {
-  animation: animated-text 2s steps(60,end) 1s 55 normal both
+/* 
+.animation {
+  animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite;
+  
+  margin-left: 30%;
 }
 
-#border {
-   animation: animated-cursor 600ms steps(60,end) infinite;
+/* text animation 
+
+@keyframes animated-text {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 300px;
+  }
 }
+ */
+/* cursor animations 
 
-/* text animation */
-
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 480px;}
-}
-
-/* cursor animations */
-
-@keyframes animated-cursor{
-  from{border-bottom-color: rgba(0,255,0,.75);}
-  to{border-bottom-color: transparent;}
-}
+@keyframes animated-cursor {
+  from {
+    border-right-color: #79787c;
+  }
+  to {
+    border-right-color: transparent;
+  }
+} 
+*/

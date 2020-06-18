@@ -7,21 +7,22 @@ const Header = () => (
     <div className="contaimer">
 
       <div id="parent">
-     
-      <p>"Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-      fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident,
-       sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+        <p className="animation">Hi there I'm Ricki a software developer based
+         in London.
+       
+        If you where expecting one of those fancy portfolios with high-resolution images and too many animations that all look the same ,
+        y regret to disappoint you but that's not me.
+        
+        I write code yes, but most of it run under the hood,  therefore you can't see it,
+        I could show you some snippets or you could go to my Github profile and take a peek.
+         Don't forget less is more :)
+         </p>
       </div>
 
 
     </div>
-    <button class="get-started button button-primary button-large">Call to Action</button>
+    <button>Take me to Github</button>
   </header>
 )
 
