@@ -22,9 +22,8 @@ const Footer = () => {
                         <Social />
                     </ul>
                 </div>
-            </div>
             <hr />
-            <div class="container">
+            <div>
                 <div class="row">
                     <div>
                         <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
@@ -33,9 +32,8 @@ const Footer = () => {
                         </p>
     
                     </div>
-
-
                 </div>
+            </div>
             </div>
         </footer>
     )
