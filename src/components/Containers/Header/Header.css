@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
 
 .site-header {
   background-color: #ffc107;
@@ -8,6 +8,19 @@
   width: auto;
   height: 60%;
   padding: 10px;
+  font-size: 40px;
+}
+
+#parent{
+
+  text-align: center;
+  margin-top: 10%;
+  border-right: solid 3px #79787c;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  color: #424242;
+  font-size: 30px;
 }
 
 * {
@@ -21,8 +34,9 @@
   white-space: nowrap;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   color: #424242;
+  text-align: center ;
 }
 
 /* Animation */
