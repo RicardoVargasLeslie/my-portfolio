@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 .site-header
 {
   background-color:#ffc107;
   padding:10px;
   line-height:24px;
   text-align: center;
-  border: 3px solid rgb(238, 0, 238);
   width: auto;
   height: 60%;
   padding:10px;
@@ -23,12 +23,14 @@
   height: 40px;
   white-space: nowrap;
   overflow: hidden; 
-  font-family: 'Source Code Pro', monospace;  
   font-size: 28px;
   color: #424242;
   position: relative;
   text-align: center;
   padding:10px;
+  margin-left:50%;
+  margin-top: 20%;
+  font-family: 'Roboto', sans-serif;
 }
 
 #border {
@@ -40,11 +42,11 @@
 
 /* Animation */
 #parent {
-  animation: animated-text 2s steps(30,end) 1s 1 normal both
+  animation: animated-text 2s steps(60,end) 1s 55 normal both
 }
 
 #border {
-   animation: animated-cursor 600ms steps(30,end) infinite;
+   animation: animated-cursor 600ms steps(60,end) infinite;
 }
 
 /* text animation */
