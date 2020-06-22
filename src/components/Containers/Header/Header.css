@@ -3,7 +3,7 @@
 .site-header {
   background-color: #ffc107;
   padding: 10px;
-  line-height: 24px;
+  line-height: 100px;
   text-align: center;
   width: auto;
   height: 60%;
@@ -23,54 +23,19 @@
   font-size: 25px;
 }
 
+.containerheader{
+
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: 22px;
+
+}
+
 * {
   align-items: baseline;
   vertical-align: baseline;
   align-self: baseline;
 }
-
-/* .animation {
-  border-right: solid 3px #79787c;
-  white-space: nowrap;
-  overflow: hidden;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  color: #424242;
-  text-align: center ;
-} */
-
-/* Animation */
-/* 
-.animation {
-  animation: animated-text 4s steps(29, end) 1s 1 normal both,
-    animated-cursor 600ms steps(29, end) infinite;
-  
-  margin-left: 30%;
-}
-
-/* text animation 
-
-@keyframes animated-text {
-  from {
-    width: 0px;
-  }
-  to {
-    width: 300px;
-  }
-}
- */
-/* cursor animations 
-
-@keyframes animated-cursor {
-  from {
-    border-right-color: #79787c;
-  }
-  to {
-    border-right-color: transparent;
-  }
-} 
-*/
-
 
 .social-header a {
   display: inline-block;
