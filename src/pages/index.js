@@ -8,8 +8,8 @@ const index = props => {
 
     <div>
       <LayoutWrapper >
-       
-      <Content></Content>
+
+        <Content></Content>
       </LayoutWrapper>
     </div>
   )
