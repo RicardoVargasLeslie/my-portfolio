@@ -5,7 +5,6 @@ module.exports = {
     description: 'A Gatsby.js Starter based on Strata by HTML5 UP',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -18,11 +17,6 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: 'gatsby-plugin-sass',
-      options: {
-      data: `src/assets/scss/main.scss`
-      }
-    },
+   
   ],
 }
