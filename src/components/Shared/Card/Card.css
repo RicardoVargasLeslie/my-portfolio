@@ -46,7 +46,7 @@
 
 .flip-card-back {
   background-color: #ffc107;
-  color: #fff;
+
   transform: rotateY(180deg);
   border-radius: 0.5rem;
   font-family: 'Roboto', sans-serif;

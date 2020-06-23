@@ -7,6 +7,12 @@
   align-self: baseline;
 }
 
+hr{
+
+  margin:5px;
+  background-color: #79787c;
+  align-self: auto;
+}
 .button {
   font-family: "Roboto", sans-serif;
   color: black;

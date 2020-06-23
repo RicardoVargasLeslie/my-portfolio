@@ -7,6 +7,7 @@ const WorkContent = () => {
         <div >
             <div className="workContent">
                 <h5>Atos IT Solutions and Services A/S  for BANKIA | Financial Services</h5>
+                <hr/>
                 <h6>Software Developer @  <strong>CEDeI Center of Execellence in Develoment and Innovation</strong></h6>
             </div>
             
