@@ -12,7 +12,7 @@ function Avatar(props) {
                     <div class="rp-item rp-img-1">
                         <div class="rp-info">
                             <h3>Title</h3>
-                            <button className="button1">Hire Me</button>
+                            <button className="button-av hire">Hire Me</button>
                         </div>
                     </div>
                 </li>

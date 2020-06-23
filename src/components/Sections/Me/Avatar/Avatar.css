@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 
-
-
-.container{
-
-
-  margin-top: 0px;
+* {
+  align-items: baseline;
+  align-items: baseline;
+  vertical-align: baseline;
+  align-self: baseline;
 }
+
+
 /*
 Avatar item circle
 */
@@ -23,35 +24,44 @@ Avatar item circle
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   margin: auto;
+  text-decoration: none;
 }
 
 
-.button1 {
-  background-color: #918c8c;
-  border: none;
-  color:white;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 2;
-  transition: 0.3s;
-  display: inline-block;
-  text-decoration: none;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  border-radius: 0.5rem;
+.button-av {
+  background-color: #ffc107;
+  color: black;
+  border: 2px solid #000000;
+  margin-top: 50%;
+  align-items: center;
+  margin-right: 25%;
+  margin-left: 25%;
   
 }
 
-.button1 {
-  transition-duration: 0.4s;
- 
+.button-av:hover {
+
+
+  
 }
 
-.button1:hover {
-  background-color: #424242;
+.hire{
+
+  background-color: #ffc107;
+  color: black;
+  border: 2px solid #000000;
+  margin-top: 50%;
+  align-items: center;
+  margin-right: 25%;
+  margin-left: 25%;
+
+
+}
+
+.hire:hover {
+  background-color: #555555;
+  width: auto;
+  height: auto;
   
 }
 
@@ -138,6 +148,7 @@ main container
 .container {
   width: 100%;
   position: relative;
+  margin-top: 120%;
 }
 
 .no-cssanimations .support-note span.no-cssanimations,
