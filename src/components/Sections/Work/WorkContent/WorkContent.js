@@ -10,7 +10,11 @@ const WorkContent = () => {
                 <hr/>
                 <h6>Software Developer @  <strong>CEDeI Center of Execellence in Develoment and Innovation</strong></h6>
             </div>
-            
+            <div className="workContent">
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                <hr/>
+                <h6>Aenean orci purus<strong>ed nibh rutrum rhoncus. Nulla at fringilla sem, non dignissim erat</strong></h6>
+            </div>
             <button class="button cv"><span>Get My CV </span></button>
         </div>
 
