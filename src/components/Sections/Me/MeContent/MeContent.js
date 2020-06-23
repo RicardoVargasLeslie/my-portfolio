@@ -1,10 +1,11 @@
 import React from 'react'
 import './MeContent.css'
+import Avatar from "../Avatar/Avatar"
 
 const MeContent = () => {
     return (
-        <div>
-            
+        <div className="meContent">
+            <Avatar  img={Avatar}/>
         </div>
     )
 }

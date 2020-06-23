@@ -11,8 +11,8 @@ function Avatar(props) {
                 <li>
                     <div class="rp-item rp-img-1">
                         <div class="rp-info">
-                            <h3>{props.avatarInfo.title}</h3>
-                            <button className="button1">{props.avatarInfo.buttonText}</button>
+                            <h3>Title</h3>
+                            <button className="button1">Hire Me</button>
                         </div>
                     </div>
                 </li>

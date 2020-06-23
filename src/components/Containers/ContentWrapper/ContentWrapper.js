@@ -17,7 +17,7 @@ const ContentWrapper = () => (
     <div id="content">
         <Me>
 
-            <Card img={meAvatar} trigger={<p>me</p>}></Card>
+            <Card img={meAvatar} trigger={<MeContent/>}></Card>
 
         </Me>
         <Work>
