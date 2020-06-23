@@ -16,7 +16,7 @@ const Header = () => (
           strings: ['a software developer based in london','If you where expecting a fancy portfolios with high-resolution images,','and too many animations,' ,'y regret to disappoint you but thats not me'],
           autoStart: true,
           loop: true,
-          delay:30
+          delay:31
         }}
       />
       <ul class="social-header">
