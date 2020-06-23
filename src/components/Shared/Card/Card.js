@@ -1,5 +1,7 @@
 import React from 'react'
 import './Card.css'
+
+
 const Card = (props) => {
 
     return (
@@ -11,10 +13,9 @@ const Card = (props) => {
                         <img src={(props.img)}/>
                         </div>
                         <div class="flip-card-back">
-                            <p>
-                           Generico
-                         
-                            </p>
+                            
+                            { props.trigger }
+                          
                          
                         </div>
 
