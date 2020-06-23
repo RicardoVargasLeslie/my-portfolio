@@ -3,7 +3,7 @@ import './Avatar.css'
 
 function Avatar(props) {
 
-    //Destructing props
+
 
     return (
         <div className="container">

@@ -1,15 +1,14 @@
 import React from "react"
 import LayoutWrapper from "../components/Containers/LayoutWrapper/LayoutWrapper"
 import './index.css'
-import Content from "../components/Containers/Content/Content"
+import ContentWrapper from "../components/Containers/ContentWrapper/ContentWrapper"
 
 const index = props => {
   return (
 
     <div>
       <LayoutWrapper >
-
-        <Content></Content>
+        <ContentWrapper></ContentWrapper>
       </LayoutWrapper>
     </div>
   )

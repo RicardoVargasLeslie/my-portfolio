@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Social from './../../Social/Social'
+import Social from './../../Shared/Social/Social'
 
 const Footer = () => {
 

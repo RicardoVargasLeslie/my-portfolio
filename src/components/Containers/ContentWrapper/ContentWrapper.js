@@ -1,15 +1,18 @@
 import React from 'react'
-import './Content.css'
-import Me from '../../Me/Me'
-import Work from '../../Work/Work'
-import Contact from "../../Contact/Contact"
+import './ContentWrapper.css'
+import Me from '../../Sections/Me/Me'
+import Work from '../../Sections/Work/Work'
+import Contact from "../../Sections/Contact/Contact"
 import Card from '../../Shared/Card/Card'
 import contactAvatar from '../../../assets/images/avatar2.png'
 import meAvatar from '../../../assets/images/117-ironman.png'
 import workAvatar from '../../../assets/images/avatar3.png'
+import MeContent from '../../Sections/Me/MeContent/MeContent'
+import WorkContent from '../../Sections/Work/WorkContent/WorkContent'
+import ContactContent from '../../Sections/Contact/ContactContent/ContactContent'
 
 
-const Content = () => (
+const ContentWrapper = () => (
 
     <div id="content">
         <Me>
@@ -26,6 +29,7 @@ const Content = () => (
 
 
 
-    </div>)
+    </div>
+    )
 
-export default Content
+export default ContentWrapper
