@@ -21,7 +21,7 @@ const ContentWrapper = () => (
 
         </Me>
         <Work>
-            <Card img={workAvatar} trigger={<p>work</p>}></Card>
+            <Card img={workAvatar} trigger={<WorkContent />}></Card>
         </Work>
         <Contact>
             <Card img={contactAvatar} trigger={<p>contact</p>}></Card>
@@ -30,6 +30,6 @@ const ContentWrapper = () => (
 
 
     </div>
-    )
+)
 
 export default ContentWrapper
