@@ -8,7 +8,7 @@ const Header = () => (
     <div className="containerheader">
 
       <div id="parent">
-        <h1>Hi there I'm Ricki</h1>
+        <h1>   {"{ welcome: \"Hi there I'm Ricki\" }"}</h1>
       </div>
 
       <Typewriter
