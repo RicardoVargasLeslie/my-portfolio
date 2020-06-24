@@ -1,6 +1,7 @@
 import React from 'react'
+import './Generico.css'
 
-const Gnerico = ({ children }) => {
+const Generico = ({ children }) => {
     return (
         <div className="generico">
             {children}
@@ -8,4 +9,4 @@ const Gnerico = ({ children }) => {
     )
 }
 
-export default Gnerico
+export default Generico
