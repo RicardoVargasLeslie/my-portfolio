@@ -1,21 +1,21 @@
 import React from "react";
 import "./MeContent.css";
-import Avatar from './Avatar/Avatar'
+import Avatar from "./Avatar/Avatar";
 
 const MeContent = () => {
     return (
         <div className="meContent">
             <p>
-                {"{ me: \"I'm a certified SysAdmin & Junior software developer,\
+                {
+                    "{ me: \"I'm a certified SysAdmin & Junior software developer,\
                 passionate about technology & cyber security,\
-                to me every day is a good day to learn something }"}
-
-                <Avatar />
+                to me every day is a good day to learn something }"
+                }
+                <hr />
             </p>
-            <hr />
-
+            <Avatar />
         </div>
     );
 };
 
-export default MeContent
+export default MeContent;

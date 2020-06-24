@@ -5,6 +5,9 @@
   align-items: baseline;
   vertical-align: baseline;
   align-self: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*
@@ -55,9 +58,6 @@ Avatar item circle
   height: auto;
 }
 
-/*
-Avatar img
-*/
 .rp-img-1 {
   /* background-image: url(../../../assets/images/); */
   margin-right: auto;
@@ -66,11 +66,10 @@ Avatar img
   padding: 0px;
   font-size: 1.5 rem;
   margin-top: -15%;
-
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #464646;
+  background-color: #000000;
 }
 
 /*
@@ -102,7 +101,7 @@ IM Ricki Text
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 25px;
+  font-size: 15px;
   margin: auto;
   padding: auto;
   height: auto;
@@ -127,7 +126,7 @@ text hover
 text opacity
 */
 .rp-item:hover .rp-info p {
-  opacity: 1;
+  opacity: 3;
 }
 
 /*
@@ -136,7 +135,7 @@ main container
 .container {
   width: 100%;
   position: relative;
-  margin-top: 0%;
+  margin-top: 50%;
 }
 
 .no-cssanimations .support-note span.no-cssanimations,
@@ -166,10 +165,4 @@ Avatar circle
   height: 220px;
   display: inline-block;
   margin: 20px;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
