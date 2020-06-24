@@ -1,0 +1,21 @@
+.meContent {
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+  align-items: baseline;
+  text-align: center;
+  color: #ffc107;
+  background-color: #424242;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  height: 50%;
+  font-size: 20px;
+}
+hr {
+  margin: 5px;
+  background-color: #79787c;
+  align-self: auto;
+}

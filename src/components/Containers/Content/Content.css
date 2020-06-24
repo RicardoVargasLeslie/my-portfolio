@@ -1,22 +1,17 @@
-#content{
-
-    margin-left: 20%;
-    margin-right: auto;
-    height: fit-content;
-    width: fit-content;
-    padding: 10px;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    border: 5px solid rgb(0, 0, 0);
-	 display: inline-block;
-    padding: 10px;
- 
+#content {
+  margin-left: 20%;
+  margin-right: auto;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  display: inline-block;
+  padding: 10px;
 }
 
 * {
-    align-items: baseline;
-    vertical-align: baseline;
-    align-self: baseline;
-  
-
-    }
+  align-items: baseline;
+  vertical-align: baseline;
+  align-self: baseline;
+}

@@ -4,8 +4,8 @@ import Card from "../../Shared/Card/Card";
 import contactAvatar from "../../../assets/images/avatar2.png";
 import meAvatar from "../../../assets/images/117-ironman.png";
 import workAvatar from "../../../assets/images/avatar3.png";
-import MeContent from "../Content/MeContent/MeContent";
-import WorkContent from "../Content/WorkContent/WorkContent";
+import MeContent from "./MeContent/MeContent";
+import WorkContent from "./WorkContent/WorkContent";
 import CardWrapper from "../../Wrappers/CardWrapper/CardWrapper";
 
 const Content = () => (
