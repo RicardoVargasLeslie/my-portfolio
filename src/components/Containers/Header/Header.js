@@ -30,14 +30,8 @@ const Header = () => (
           </a>
         </li>
       </ul> */}
-      <FontAwesomeIcon icon="coffee" />
-      <div class="cardBox">
-        <div class="card github">
-          <div class="front"><i class="fa fa-github" aria-hidden="true"></i></div>
-          <div class="back">Github</div>
-        </div>
-      </div>
     </div>
+
 
   </header >
 );
