@@ -1,25 +1,20 @@
-import React from 'react'
-import './Avatar.css'
+import React from "react";
+import "./Avatar.css";
+import avatar from "../../../../../assets/images/avatar.jpg";
 
 function Avatar(props) {
-
-
-
     return (
         <div className="container">
-            <ul class="rp-grid">
-                <li>
-                    <div class="rp-item rp-img-1">
-                        <div class="rp-info">
-                            <h3>Title</h3>
-                            <button className="button-av hire">Hire Me</button>
-                        </div>
-                    </div>
-                </li>
-
-            </ul>
+            <div class="contact-holder">
+                <div class="contact-image-holder">
+                    <img src={avatar} />
+                </div>
+                <div class="bottom">
+                    <h6>or 1=1</h6>
+                </div>
+            </div>
         </div>
-    )
+    );
 }
 
-export default Avatar
+export default Avatar;

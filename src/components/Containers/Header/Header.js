@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Typewriter from "typewriter-effect";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => (
   <header class="site-header">
@@ -22,15 +23,23 @@ const Header = () => (
           delay: 31,
         }}
       />
-      <ul class="social-header">
+      {/*  <ul class="social-header">
         <li>
           <a href="https://github.com/RicardoVargasLeslie" class="icon-github">
             GitHub
           </a>
         </li>
-      </ul>
+      </ul> */}
+      <FontAwesomeIcon icon="coffee" />
+      <div class="cardBox">
+        <div class="card github">
+          <div class="front"><i class="fa fa-github" aria-hidden="true"></i></div>
+          <div class="back">Github</div>
+        </div>
+      </div>
     </div>
-  </header>
+
+  </header >
 );
 
 export default Header;
