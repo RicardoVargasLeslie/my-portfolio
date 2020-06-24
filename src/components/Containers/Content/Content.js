@@ -1,6 +1,5 @@
 import React from 'react'
-import './ContentWrapper.css'
-
+import './Content.css'
 import Card from '../../Shared/Card/Card'
 import contactAvatar from '../../../assets/images/avatar2.png'
 import meAvatar from '../../../assets/images/117-ironman.png'
@@ -8,28 +7,23 @@ import workAvatar from '../../../assets/images/avatar3.png'
 import MeContent from '../../Sections/Me/MeContent/MeContent'
 import WorkContent from '../../Sections/Work/WorkContent/WorkContent'
 import ContactContent from '../../Sections/Contact/ContactContent/ContactContent'
-import Generico from '../../Generico/Generico'
+import CardWrapper from '../../CardWrapper/CardWrapper'
 
-
-
-const ContentWrapper = () => (
+const Content = () => (
 
     <div id="content">
 
-        <Generico class="generico">
+        <CardWrapper>
             <Card img={meAvatar} trigger={<MeContent />}></Card>
-        </Generico>
+        </CardWrapper>
 
-        <Generico class="generico">
+        <CardWrapper>
             <Card img={workAvatar} trigger={<WorkContent />}></Card>
-
-        </Generico>
-        <Generico class="generico">
+        </CardWrapper>
+        <CardWrapper>
             <Card img={contactAvatar} trigger={<p>contact</p>}></Card>
-        </Generico>
-
-
+        </CardWrapper>
     </div>
 )
 
-export default ContentWrapper
+export default Content
