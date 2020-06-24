@@ -10,23 +10,24 @@ import workAvatar from '../../../assets/images/avatar3.png'
 import MeContent from '../../Sections/Me/MeContent/MeContent'
 import WorkContent from '../../Sections/Work/WorkContent/WorkContent'
 import ContactContent from '../../Sections/Contact/ContactContent/ContactContent'
+import Generico from '../../Generico/Gnerico'
 
 
 const ContentWrapper = () => (
 
     <div id="content">
-        <Me>
 
-            <Card img={meAvatar} trigger={<MeContent/>}></Card>
+        <Generico>
+            <Card img={meAvatar} trigger={<MeContent />}></Card>
+        </Generico>
 
-        </Me>
-        <Work>
+        <Generico>
             <Card img={workAvatar} trigger={<WorkContent />}></Card>
-        </Work>
-        <Contact>
-            <Card img={contactAvatar} trigger={<p>contact</p>}></Card>
-        </Contact>
 
+        </Generico>
+        <Generico>
+            <Card img={contactAvatar} trigger={<p>contact</p>}></Card>
+        </Generico>
 
 
     </div>
