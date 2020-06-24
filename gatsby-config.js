@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix:"/my-portfolio",
+  pathPrefix: '/my-portfolio',
   siteMetadata: {
     title: 'Gatsby Starter - Strata by HTML5 UP',
     author: 'Hunter Chang',
@@ -18,6 +18,6 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
-   
+
   ],
 }
