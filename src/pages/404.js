@@ -8,4 +8,4 @@ const NotFoundPage = () => (
   </LayoutWrapper>
 );
 
-export default NotFoundPage
+export default NotFoundPage;

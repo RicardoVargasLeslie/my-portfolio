@@ -1,7 +1,7 @@
-import React from "react"
-import LayoutWrapper from "../components/Wrappers/LayoutWrapper/LayoutWrapper"
-import Content from "../components/Containers/Content/Content"
-import './index.css'
+import React from "react";
+import LayoutWrapper from "../components/Wrappers/LayoutWrapper/LayoutWrapper";
+import Content from "../components/Containers/Content/Content";
+import "./index.css";
 
 
 const index = () => {
@@ -15,4 +15,4 @@ const index = () => {
   )
 }
 
-export default index
+export default index;

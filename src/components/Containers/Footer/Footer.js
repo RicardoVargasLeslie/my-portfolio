@@ -1,6 +1,6 @@
-import React from 'react'
-import './Footer.css'
-import Social from './../../Shared/Social/Social'
+import React from "react";
+import "./Footer.css";
+import Social from "./../../Shared/Social/Social";
 
 const Footer = () => {
 
@@ -22,21 +22,21 @@ const Footer = () => {
                         <Social />
                     </ul>
                 </div>
-            <hr />
-            <div>
-                <div class="row">
-                    <div>
-                        <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-                        <br/>
-                        <a href="#">Ricardo Vargas Leslie :)</a>.
+                <hr />
+                <div>
+                    <div class="row">
+                        <div>
+                            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                        <br />
+                                <a href="#">Ricardo Vargas Leslie :)</a>.
                         </p>
-    
+
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </footer>
     )
 }
 
-export default Footer
+export default Footer;
