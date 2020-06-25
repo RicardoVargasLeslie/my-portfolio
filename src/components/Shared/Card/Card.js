@@ -6,13 +6,6 @@ const Card = (props) => {
 
 
     <div id="main">
-
-      <p>{
-
-        " Boolean hover=true;"
-      }
-
-      </p>
       <div id="card">
         <div class="flip-card-container">
           <div class="flip-card">

@@ -1,7 +1,6 @@
 #layout {
-
   /* The image used */
-  background-image: url("../../../assets/images/large.jpg");
+  background-image: url("../../../assets/images/minimal.jpg");
   /* Full height */
   height: 50vw;
   width: 100vw;
@@ -13,17 +12,15 @@
 }
 
 * {
-   align-items: baseline;
+  align-items: baseline;
   vertical-align: baseline;
   align-self: baseline;
-    
-  }
-
+}
 
 @media only screen and (max-width: 767px) {
   body {
     /* The file size of this background image is 93% smaller
        to improve page load speed on mobile internet connections */
-       /* background-image: url("../../assets/images/medium.jpg"); */
+    /* background-image: url("../../assets/images/medium.jpg"); */
   }
 }
