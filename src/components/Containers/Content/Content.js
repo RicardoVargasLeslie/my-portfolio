@@ -1,7 +1,7 @@
 import React from "react";
 import "./Content.css";
 import Card from "../../Shared/Card/Card";
-import contactAvatar from "../../../assets/images/avatar2.png";
+import contactAvatar from "../../../assets/images/contact.jpeg";
 import meAvatar from "../../../assets/images/me.jpg";
 import workAvatar from "../../../assets/images/work.jpeg";
 import MeContent from "./MeContent/MeContent";
