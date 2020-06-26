@@ -74,9 +74,3 @@
 .card .back {
   transform: rotateY(180deg);
 }
-
-.img {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}

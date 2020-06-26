@@ -19,7 +19,7 @@ const Header = () => (
             "y regret to disappoint you but thats not me",
           ],
           autoStart: true,
-          loop: true,
+          loop: false,
           delay: 31,
         }}
       />
