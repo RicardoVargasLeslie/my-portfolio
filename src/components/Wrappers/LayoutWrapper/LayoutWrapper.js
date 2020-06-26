@@ -5,6 +5,7 @@ import "./layout.css";
 
 const LayoutWrapper = ({ children }) => (
   <div id="layout">
+    <div className="img"><img src="paris.jpg" alt="Paris" /></div>
     <Header />
     {children}
     <Footer />
