@@ -3,7 +3,7 @@ import "./Content.css";
 import Card from "../../Shared/Card/Card";
 import contactAvatar from "../../../assets/images/avatar2.png";
 import meAvatar from "../../../assets/images/me.jpg";
-import workAvatar from "../../../assets/images/avatar2.png";
+import workAvatar from "../../../assets/images/work.jpeg";
 import MeContent from "./MeContent/MeContent";
 import ExperienceContent from "./ExperienceContent/ExperienceContent";
 import CardWrapper from "../../Wrappers/CardWrapper/CardWrapper";
