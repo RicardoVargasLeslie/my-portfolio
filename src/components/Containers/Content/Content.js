@@ -5,7 +5,7 @@ import contactAvatar from "../../../assets/images/avatar2.png";
 import meAvatar from "../../../assets/images/me.jpg";
 import workAvatar from "../../../assets/images/avatar2.png";
 import MeContent from "./MeContent/MeContent";
-import WorkContent from "./WorkContent/WorkContent";
+import ExperienceContent from "./ExperienceContent/ExperienceContent";
 import CardWrapper from "../../Wrappers/CardWrapper/CardWrapper";
 
 const Content = () => (
@@ -15,7 +15,7 @@ const Content = () => (
         </CardWrapper>
 
         <CardWrapper>
-            <Card img={workAvatar} trigger={<WorkContent />}></Card>
+            <Card img={workAvatar} trigger={<ExperienceContent />}></Card>
         </CardWrapper>
         <CardWrapper>
             <Card img={contactAvatar} trigger={<p>contact</p>}></Card>

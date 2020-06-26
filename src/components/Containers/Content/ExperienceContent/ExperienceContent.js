@@ -1,18 +1,18 @@
 import React from 'react'
-import './WorkContent.css'
+import './ExperienceContent.css'
 
-const WorkContent = () => {
+const ExperienceContent = () => {
     return (
 
         <div >
             <div className="workContent">
                 <h5>Atos IT Solutions and Services A/S  for BANKIA | Financial Services</h5>
-                <hr/>
+                <hr />
                 <h6>Software Developer @  <strong>CEDeI Center of Execellence in Develoment and Innovation</strong></h6>
             </div>
             <div className="workContent">
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                <hr/>
+                <hr />
                 <h6>Aenean orci purus<strong>ed nibh rutrum rhoncus. Nulla at fringilla sem, non dignissim erat</strong></h6>
             </div>
             <button class="button cv"><span>Get My CV </span></button>
@@ -24,4 +24,4 @@ const WorkContent = () => {
     )
 }
 
-export default WorkContent
+export default ExperienceContent
