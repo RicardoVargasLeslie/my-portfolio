@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Typewriter from "typewriter-effect";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Header = () => (
   <header class="site-header">

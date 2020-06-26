@@ -16,3 +16,9 @@
   vertical-align: baseline;
   align-self: baseline;
 }
+.img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-right: 40%;
+}

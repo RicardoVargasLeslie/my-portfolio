@@ -7,9 +7,12 @@ import workAvatar from "../../../assets/images/work.jpeg";
 import MeContent from "./MeContent/MeContent";
 import ExperienceContent from "./ExperienceContent/ExperienceContent";
 import CardWrapper from "../../Wrappers/CardWrapper/CardWrapper";
+import img from "../../../assets/images/coder.png";
 
 const Content = () => (
     <div id="content">
+
+        <div className="img"><img src={img} alt="Paris" /></div>
         <CardWrapper>
             <Card img={meAvatar} trigger={<MeContent />}></Card>
         </CardWrapper>
