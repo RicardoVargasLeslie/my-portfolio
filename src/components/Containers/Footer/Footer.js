@@ -7,11 +7,11 @@ const Footer = () => {
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="about-container">
                         <h6>About</h6>
-            Im Just a Developer
-          </div>
-                    <div class="col-xs-6 col-md-3">
+                        <p>{'{ about: "I\'m Just a Developer" }'}</p>
+                    </div>
+                    <div class="quick-container">
                         <h6>Quick Links</h6>
                         <ul class="footer-links">
                             <li>
@@ -19,11 +19,6 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a href="http://scanfcode.com/contact/">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="http://scanfcode.com/contribute-at-scanfcode/">
-                                    Contribute
-                </a>
                             </li>
                             <li>
                                 <a href="http://scanfcode.com/privacy-policy/">
@@ -38,13 +33,14 @@ const Footer = () => {
                 </div>
                 <hr />
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="copyright-text">
+            <div class="copyright-container">
+                <div>
+                    <div>
                         <Social></Social>
                         <p>
-                            Copyright &copy; 2017 All Rights Reserved by
-            </p>
+
+                            {'{ cp: " Copyright 2020 All Rights Reserved by Ricardo Vargas" }'}
+                        </p>
                     </div>
                 </div>
             </div>
