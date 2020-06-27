@@ -1,6 +1,6 @@
 #layout {
   /* The image used */
-  /* background-image: url("../../../assets/images/coder.png"); */
+  /* background-image: url("../../../assets/images/code.png"); */
   /* Full height */
 
   /* Center and scale the image nicely */
@@ -8,6 +8,7 @@
   background-position: center center;
   background-size: cover;
   background-color: #ffffff;
+  width: auto;
 }
 
 * {

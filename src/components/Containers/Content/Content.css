@@ -16,11 +16,3 @@
   vertical-align: baseline;
   align-self: baseline;
 }
-.img {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin-top: 0%;
-  margin-left: 25%;
-  margin-right: 25%;
-}
