@@ -16,9 +16,10 @@ const ContactContent = () => {
                 </a>
                 <a href="#">
                     <article>
-                        <span>github</span>
+                        <span>G</span>
                     </article>
                 </a>
+                <br />
                 <a href="#">
                     <article>
                         <span>linkedin</span>
@@ -27,16 +28,6 @@ const ContactContent = () => {
                 <a href="#">
                     <article>
                         <span>instagram</span>
-                    </article>
-                </a>
-                <a href="#">
-                    <article>
-                        <span>flickr</span>
-                    </article>
-                </a>
-                <a href="#">
-                    <article>
-                        <span>vimeo</span>
                     </article>
                 </a>
             </section>
