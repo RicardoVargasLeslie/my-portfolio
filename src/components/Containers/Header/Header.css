@@ -13,7 +13,6 @@
 #parent {
   text-align: center;
   margin-top: 10%;
-  border-right: solid 3px #79787c;
   white-space: nowrap;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
@@ -31,46 +30,4 @@
   align-items: baseline;
   vertical-align: baseline;
   align-self: baseline;
-}
-
-.github {
-  background: #000000;
-}
-.cardBox {
-  perspective: 500px;
-  margin: 15px;
-}
-.card {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  background: rgb(0, 0, 0);
-  transform-style: preserve-3d;
-  transition: all 0.5s ease-in-out;
-}
-.card .front,
-.card .back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 150px;
-  height: 150px;
-  backface-visibility: hidden;
-  color: rgb(0, 0, 0);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.card .front {
-  font-size: 40px;
-}
-.card .back {
-  font-size: 25px;
-}
-
-.cardBox:hover .card {
-  transform: rotateY(180deg);
-}
-.card .back {
-  transform: rotateY(180deg);
 }
