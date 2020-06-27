@@ -10,7 +10,7 @@ const Header = () => (
         <h1> {'{ welcome: "Hi there I\'m Ricki" }'}</h1>
       </div>
 
-      <Typewriter
+      {/* <Typewriter
         options={{
           strings: [
             "a software developer based in london",
@@ -22,7 +22,7 @@ const Header = () => (
           loop: false,
           delay: 31,
         }}
-      />
+      /> */}
       {/*  <ul class="social-header">
         <li>
           <a href="https://github.com/RicardoVargasLeslie" class="icon-github">
