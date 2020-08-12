@@ -7,9 +7,8 @@
   align-self: baseline;
 }
 
-hr{
-
-  margin:5px;
+hr {
+  margin: 5px;
   background-color: #79787c;
   align-self: auto;
 }
@@ -38,14 +37,12 @@ hr{
   margin-left: 25%;
   width: auto;
   height: auto;
-  
 }
 
 .cv:hover {
   background-color: #555555;
   width: auto;
   height: auto;
-  
 }
 
 .button span {
@@ -63,12 +60,10 @@ hr{
   top: 0;
   right: -20px;
   transition: 0.5s;
-
 }
 
 .button:hover span {
   padding-right: 25px;
-
 }
 
 .button:hover span:after {
@@ -76,21 +71,19 @@ hr{
   right: 0;
 }
 
-
-
 .workContent {
   margin-top: auto;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 5px;
   align-items: baseline;
   text-align: center;
   color: #ffc107;
   background-color: #424242;
-  margin-bottom: 5px;
+  margin-bottom: px;
   margin-top: 5px;
-  height: 100px;
+  height: auto;
   font-size: 20px;
 }
