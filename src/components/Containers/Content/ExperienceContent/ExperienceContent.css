@@ -21,8 +21,6 @@ hr {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
   width: auto;
   height: auto;
 }
@@ -49,7 +47,6 @@ hr {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
   width: 100px;
 }
 
@@ -58,8 +55,6 @@ hr {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
-  transition: 0.5s;
 }
 
 .button:hover span {
