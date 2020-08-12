@@ -1,9 +1,25 @@
 ######################
 # Project Specific
 ######################
-/build/www/**
-/src/test/javascript/coverage/
-/src/test/javascript/PhantomJS*/
+.cache/
+public
+
+######################
+# Yarn
+######################
+yarn-error.log
+.pnp/
+.pnp.js
+.yarn-integrity
+
+######################
+# Logs
+######################
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 ######################
 # Node
@@ -12,6 +28,13 @@
 node_tmp/
 node_modules/
 npm-debug.log.*
+jspm_packages/
+.npm
+
+######################
+# Bower
+######################
+bower_components
 
 ######################
 # SASS
@@ -63,6 +86,7 @@ local.properties
 # Visual Studio Code
 ######################
 .vscode/
+
 
 ######################
 # Maven
@@ -139,3 +163,11 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+######################
+# Runtime data
+######################
+pids
+*.pid
+*.seed
+*.pid.lock
+
