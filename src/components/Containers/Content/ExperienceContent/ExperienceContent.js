@@ -15,11 +15,8 @@ const ExperienceContent = () => {
                 <hr />
                 <h6>Software Developer @  <strong>CEDeI Center of Execellence in Develoment and Innovation</strong></h6>
             </div>
-            <button class="button cv"><span>Get My CV </span></button>
+            <a class="button cv" href="https://drive.google.com/file/d/1t_H4f1lFteGTIJwhlnTm6H4mBIGzFPi2/view?usp=sharing" class="button cv"><span>Get My CV </span></a>
         </div>
-
-
-
 
     )
 }
