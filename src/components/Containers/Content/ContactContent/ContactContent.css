@@ -54,9 +54,6 @@ a:nth-child(5):hover article {
 a:nth-child(6):hover article {
   background-color: #3f729b;
 }
-a:nth-child(7):hover article {
-  background-color: rgb(222, 3, 225);
-}
 
 span {
   transition: transform 0s linear 0.2s, text-shadow 0s linear 0.2s;

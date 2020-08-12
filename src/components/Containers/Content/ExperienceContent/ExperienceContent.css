@@ -50,15 +50,8 @@ hr {
   width: 100px;
 }
 
-.button span:after {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-}
-
 .button:hover span {
-  padding-right: 25px;
+  padding-right: 10px;
 }
 
 .button:hover span:after {

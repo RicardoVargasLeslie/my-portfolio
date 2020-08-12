@@ -17,7 +17,6 @@ const ExperienceContent = () => {
             </div>
             <a class="button cv" href="https://drive.google.com/file/d/1t_H4f1lFteGTIJwhlnTm6H4mBIGzFPi2/view?usp=sharing" class="button cv"><span>Get My CV </span></a>
         </div>
-
     )
 }
 

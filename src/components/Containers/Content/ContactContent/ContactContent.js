@@ -4,12 +4,12 @@ const ContactContent = () => {
     return (
         <div>
             <section class="ss-icon">
-                <a href="#">
+                <a href="https://twitter.com/ricki_me">
                     <article>
                         <span>twitter</span>
                     </article>
                 </a>
-                <a href="#">
+                <a href="https://www.pinterest.es/rapdelosnoventa">
                     <article>
                         <span>pinterest</span>
                     </article>
@@ -20,12 +20,12 @@ const ContactContent = () => {
                     </article>
                 </a>
                 <br />
-                <a href="#">
+                <a href="https://www.linkedin.com/in/ricardo-jos%C3%A9-vargas-leslie-235747143/">
                     <article>
                         <span>linkedin</span>
                     </article>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/ricki_me/">
                     <article>
                         <span>instagram</span>
                     </article>
