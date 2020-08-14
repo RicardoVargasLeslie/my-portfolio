@@ -1,13 +1,10 @@
 import React from "react";
-import "./CardWrapper.css";
-
+import styled from "styled-components";
 const CardWrapper = ({ children }) => {
-  return <div className="cardWrapper">{children}</div>;
-};
+  return <Wrapper>{children}</Wrapper>
+}
 
-
-
-const CardWrapper = styled.div`
+const Wrapper = styled.div`
     padding: 10px;
     display: inline-block;
     align-items: baseline;
