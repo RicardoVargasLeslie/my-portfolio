@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-#content {
+import styled from "styled-components";
+
+const ContentWrapper = styled.div`
   margin-left: 20%;
   margin-right: auto;
   height: fit-content;
@@ -9,10 +10,8 @@
   margin-bottom: 15%;
   display: inline-block;
   padding: 10px;
-}
-
-* {
   align-items: baseline;
   vertical-align: baseline;
   align-self: baseline;
-}
+`;
+export default ContentWrapper;

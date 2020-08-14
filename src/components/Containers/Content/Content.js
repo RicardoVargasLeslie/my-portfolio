@@ -1,5 +1,4 @@
 import React from "react";
-import "./Content.css";
 import Card from "../../Shared/Card/Card";
 import contactAvatar from "../../../assets/images/contact.jpeg";
 import meAvatar from "../../../assets/images/me.jpg";
@@ -8,10 +7,11 @@ import MeContent from "./MeContent/MeContent";
 import ExperienceContent from "./ExperienceContent/ExperienceContent";
 import ContactContent from "./ContactContent/ContactContent";
 import CardWrapper from "../../Wrappers/CardWrapper/CardWrapper";
-import img from "../../../assets/images/code.png";
+import ContentWrapper from '../../../Styled/Content/ContentWrapper';
 
 const Content = () => (
-    <div id="content">
+
+    <ContentWrapper>
         <CardWrapper>
             <Card img={meAvatar} trigger={<MeContent />}></Card>
         </CardWrapper>
@@ -22,7 +22,7 @@ const Content = () => (
         <CardWrapper>
             <Card img={contactAvatar} trigger={<ContactContent />}></Card>
         </CardWrapper>
-    </div>
+    </ContentWrapper>
 );
 
 export default Content;
