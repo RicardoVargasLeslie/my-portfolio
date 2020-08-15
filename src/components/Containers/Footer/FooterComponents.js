@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 const SiteFooter = styled.div`
 
 * {
@@ -71,4 +72,4 @@ const CopyrightContainer = styled.div`
  text-align: center;
 `;
 
-export default FooterStyled;
+export default FooterComponents;
