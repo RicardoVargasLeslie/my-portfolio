@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-const SiteFooter = styled.div`
+export const SiteFooter = styled.div`
 
 * {
   align-items: baseline;
@@ -37,7 +37,7 @@ const SiteFooter = styled.div`
   }
 `;
 
-const FooterLinks = styled.div`
+export const FooterLinks = styled.div`
  
   list-style: none;
   display: inline-block;
@@ -63,13 +63,11 @@ const FooterLinks = styled.div`
   }
 `;
 
-const AboutContainer = styled.div`
+export const AboutContainer = styled.div`
  color: #ffc107;
 `;
-const CopyrightContainer = styled.div`
+export const CopyrightContainer = styled.div`
  color: #79787c;
  margin: 0;
  text-align: center;
 `;
-
-export default FooterComponents;

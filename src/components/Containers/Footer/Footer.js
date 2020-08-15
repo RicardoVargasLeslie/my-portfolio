@@ -5,7 +5,7 @@ import {
     FooterLinks,
     AboutContainer,
     CopyrightContainer
-} from "./FooterComponents";
+} from "../../../Styled/FooterComponents";
 
 
 const Footer = () => {

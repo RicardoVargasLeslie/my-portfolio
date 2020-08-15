@@ -7,7 +7,7 @@ import MeContent from "./MeContent/MeContent";
 import ExperienceContent from "./ExperienceContent/ExperienceContent";
 import ContactContent from "./ContactContent/ContactContent";
 import CardWrapper from "../../Wrappers/CardWrapper/CardWrapper";
-import ContentWrapper from '../../../Styled/Content/ContentWrapper';
+import ContentWrapper from '../../../Styled/ContentWrapper';
 
 const Content = () => (
 
