@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Social from "./../../Shared/Social/Social";
+import FooterStyled from "./FooterStyled";
 
 const Footer = () => {
     return (
