@@ -1,5 +1,4 @@
 import React from "react";
-import "./Card.css";
 import { FlipCardContainer, FlipCard, FlipCardFront, FlipCardBack } from "../../../Styled/CardComponents"
 
 const Card = (props) => {
@@ -7,14 +6,14 @@ const Card = (props) => {
 
     <div>
       <div>
-        <div class="flip-card-container">
-          <div class="flip-card">
-            <div class="flip-card-front">
+        <FlipCardContainer>
+          <FlipCard>
+            <FlipCardFront>
               <img src={props.img} />
-            </div>
-            <div class="flip-card-back">{props.trigger}</div>
-          </div>
-        </div>
+            </FlipCardFront>
+            <FlipCardBack>{props.trigger}</FlipCardBack>
+          </FlipCard>
+        </FlipCardContainer>
       </div>
     </div>
   );

@@ -9,10 +9,7 @@ export const FlipCardContainer = styled.div`
   align-items: center;
   margin: auto;
   padding: 10px;
-  hover:{
-
-     transform: rotateY(180deg);
-  }
+  transform: rotateY(180deg);
  
 `;
 
