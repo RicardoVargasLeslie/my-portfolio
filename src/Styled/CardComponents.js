@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const flipCardContainer = styled.div`
+export const FlipCardContainer = styled.div`
 
  width: 300px;
   height: 400px;
@@ -16,7 +16,7 @@ const flipCardContainer = styled.div`
  
 `;
 
-const flipCard = styled.div`
+export const FlipCard = styled.div`
 
   position: relative;
   width: 100%;
@@ -27,7 +27,7 @@ const flipCard = styled.div`
 
 `;
 
-const flipCardFront = styled.div`
+export const FlipCardFront = styled.div`
 
   position: absolute;
   width: 100%;
@@ -49,7 +49,7 @@ const flipCardFront = styled.div`
 
 `;
 
-const flipCardBack = styled.div`
+export const FlipCardBack = styled.div`
 
   background-color: #ffc107;
   transform: rotateY(180deg);

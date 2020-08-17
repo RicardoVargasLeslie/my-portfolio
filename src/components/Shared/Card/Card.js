@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import { FlipCardContainer, FlipCard, FlipCardFront, FlipCardBack } from "../../../Styled/CardComponents"
 
 const Card = (props) => {
   return (
