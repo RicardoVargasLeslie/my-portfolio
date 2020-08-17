@@ -4,9 +4,8 @@ import "./Card.css";
 const Card = (props) => {
   return (
 
-
-    <div id="main">
-      <div id="card">
+    <div>
+      <div>
         <div class="flip-card-container">
           <div class="flip-card">
             <div class="flip-card-front">
