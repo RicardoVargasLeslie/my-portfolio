@@ -1,14 +1,25 @@
 import React from "react";
 import Footer from "../../Containers/Footer/Footer";
 import Header from "../../Containers/Header/Header";
-import "./layout.css";
+import styled from "styled-components";
+
+export const Layout = styled.div`
+ color: #79787c;
+ margin: 0;
+ text-align: center;
+ * {
+  align-items: baseline;
+  vertical-align: baseline;
+  align-self: baseline;
+}
+`;
 
 const LayoutWrapper = ({ children }) => (
-  <div id="layout">
+  <Layout>
     <Header />
     {children}
     <Footer />
-  </div>
+  </Layout>
 );
 
 export default LayoutWrapper;
