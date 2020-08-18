@@ -1,11 +1,12 @@
 import React from "react";
 import "./Header.css";
-import TypeWriter from 'react-typewriter';
+import TypeWriter from "react-typewriter";
+import { SiteHeader, Parent, ContainerHeader } from "../../../Styled/FooterComponents"
 
 
 
 const Header = () => (
-  <header class="site-header">
+  <SiteHeader>
     <div className="containerheader">
       <div id="parent">
         <h1> {'{ welcome: "Hi there I\'m Ricki" }'}</h1>
@@ -14,7 +15,7 @@ const Header = () => (
 
     </div>
 
-  </header >
+  </SiteHeader>
 
 
 );
