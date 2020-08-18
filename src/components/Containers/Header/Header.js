@@ -1,5 +1,4 @@
 import React from "react";
-import "./Header.css";
 import TypeWriter from "react-typewriter";
 import { SiteHeader, Parent, ContainerHeader } from "../../../Styled/FooterComponents";
 
