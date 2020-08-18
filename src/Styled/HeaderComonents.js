@@ -1,0 +1,24 @@
+import styled from "styled-components";
+
+
+export const SiteHeader = styled.div`
+ 
+  background-color: #ffc107;
+  padding: 10px;
+  line-height: 100px;
+  text-align: center;
+  width: auto;
+  height: 60%;
+  padding: 10px;
+`;
+
+export const Parent = styled.div`
+ 
+   text-align: center;
+  margin-top: 10%;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  color: #424242;
+  font-size: 25px;
+`;
