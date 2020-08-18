@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const SiteHeader = styled.header`
+export const SiteHeader = styled.div`
  
   background-color: #ffc107;
   padding: 10px;
@@ -22,7 +22,7 @@ export const SiteHeader = styled.header`
 
 export const Parent = styled.div`
  
-   text-align: center;
+  text-align: center;
   margin-top: 10%;
   white-space: nowrap;
   overflow: hidden;
@@ -34,7 +34,7 @@ export const Parent = styled.div`
 
 export const ContainerHeader = styled.div`
  
-   font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000000;
   font-size: 22px;
 `;
