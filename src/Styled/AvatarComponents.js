@@ -14,3 +14,54 @@ export const ContactHolder = styled.div`
     0px 6px 26px rgba(0, 0, 0, 0.4);
  
 `;
+
+export const ContactImageHolder = styled.div`
+
+margin-top: -100px;
+  position: relative;
+  left: 50%;
+  margin-left: -77px;
+  padding: 6px;
+  width: 154px;
+  height: 154px;
+  border-radius: 50%;
+  border: 1px dashed #424242;
+  box-shadow: 0px 3px 26px rgba(0, 0, 0, 0.4);
+
+  img{
+
+    border-radius: 50%;
+  width: 140px;
+  border: 5px solid #79787c;
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.4);
+
+  }
+ 
+`;
+
+export const Content = styled.div`
+
+margin-top: 20px;
+ 
+`;
+
+export const Bottom = styled.div`
+
+line-height: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  bottom p::before,
+  bottom p::after {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 1px 20px;
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid #fff;
+}
+
+`;
