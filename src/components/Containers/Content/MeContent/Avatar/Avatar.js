@@ -2,6 +2,8 @@ import React from "react";
 import "./Avatar.css";
 import avatar from "../../../../../assets/images/avatar.jpg";
 
+import { ContactHolder, ContactImageHolder, Content, Bottom } from "../../../../../Styled/AvatarComponents"
+
 function Avatar(props) {
     return (
         <div className="container">
