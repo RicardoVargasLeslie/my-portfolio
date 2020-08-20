@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 
-export const SiteFooter = styled.div`
+
+export const Global = styled.div`
 
 * {
   align-items: baseline;
@@ -9,14 +10,20 @@ export const SiteFooter = styled.div`
   vertical-align: baseline;
   align-self: baseline;
 }
+`;
+
+export const SiteFooter = styled.div`
 
   background-color: #424242;
   padding: 5px;
   font-size: 15px;
+  line-height: 24px;background-color: #424242;
+  padding: 5px;
+  font-size: 15px;
   line-height: 24px;
-  color: #424242;
+
   text-align: center;
-  margin-top: 5%;
+
 
   hr {
 

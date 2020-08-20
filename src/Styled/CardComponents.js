@@ -9,7 +9,7 @@ export const FlipCardContainer = styled.div`
   align-items: center;
   margin: auto;
   padding: 10px;
-  transform: rotateY(180deg);
+
  
 `;
 
@@ -21,6 +21,7 @@ export const FlipCard = styled.div`
   transition: transform 1s;
   transform-style: preserve-3d;
   font-family: 'Roboto', sans-serif;
+ 
 
 `;
 
@@ -34,6 +35,8 @@ export const FlipCardFront = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
+
 
   img{
 
@@ -61,15 +64,6 @@ export const FlipCardBack = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
-  p{
-   text-align: left;
-  padding: 5px;
-  align-content: center;
-  font-size: 1.5 rem;
-  margin: auto;
-  font-family: 'Roboto', sans-serif;
-
-  }
-
+   transform: rotateY(180deg);
+ 
 `;
