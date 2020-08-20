@@ -10,7 +10,6 @@ export const FlipCardContainer = styled.div`
   margin: auto;
   padding: 10px;
 
- 
 `;
 
 export const FlipCard = styled.div`
@@ -21,8 +20,6 @@ export const FlipCard = styled.div`
   transition: transform 1s;
   transform-style: preserve-3d;
   font-family: 'Roboto', sans-serif;
- 
-
 `;
 
 export const FlipCardFront = styled.div`
@@ -64,6 +61,6 @@ export const FlipCardBack = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-   transform: rotateY(180deg);
+
  
 `;
